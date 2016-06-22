@@ -1,0 +1,11 @@
+{
+    "name": "codefordus/pgosm2geojson",
+    "description": "Converts osm data to geojson based on tags.",
+    "authors": [
+        {
+            "name": "Max Schorradt",
+            "email": "schorradt@publicplan.de"
+        }
+    ],
+    "require": {}
+}
