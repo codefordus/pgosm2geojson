@@ -22,8 +22,8 @@ foreach($daten as $r){
   foreach($r as $k){
     $t = array();
     if(isset($k["lat"])){
-      $t[0] = $k["lat"];
-      $t[1] = $k["long"];
+      $t[0] = floatval($k["lat"]);
+      $t[1] = floatval($k["long"]);
     }
     $tmp["geometry"]["coordinates"][] = $t;
   }
